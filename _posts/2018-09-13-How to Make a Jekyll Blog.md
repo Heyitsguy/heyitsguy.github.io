@@ -39,7 +39,14 @@ Prerequisites:
 
 ![jekyll version]({{site.baseurl}}/_posts/Screen_Shot_2018-09-13_at_9.20.21_AM.jpg)
 
-1. 
+1. To start a new jekyll blog just type `jekyll new` and then the name of your blog. `jekyll new new-blog`. This should create a folder with your blog name and install all the gems necessary.
+2. Your blog will come with a preinstalled theme called minima. If you run the command `jekyll serve`, a server will launch and you will be able to access your site.
+![jekyll serve]({{site.baseurl}}/_posts/jekyll-serve.jpg)
+We see that the site is hosted on localhost port 4000, so lets go over and take a look!
+![localhost:4000]({{site.baseurl}}/_posts/Screen_Shot_2018-09-13_at_9.44.51_AM.jpg)
+
+
+
 
 
 
