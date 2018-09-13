@@ -76,10 +76,17 @@ Writing posts in jekyll is really easy. Posts are written as a markdown(.md) fil
 So just a couple of things to get out of the way before you start writing content:
 
 ## Naming Convention
-___
+---
 Jekyll uses a naming convention to identify blog posts. Posts will not be recognized unless the file name is created using the following `year-month-date-{post-slug}.{file-extension}`.![Screen Shot 2018-09-13 at 11.00.51 AM.png]({{site.baseurl}}/_posts/Screen Shot 2018-09-13 at 11.00.51 AM.png)
 
 ## Front Matter
+---
+Front matter is what goes on the top of every file in Jekyll. Front matter section is delineated by three hyphens on the top and bottom. What goes in between the top and bottom set of hyphens are key value pairs. Either JSON or YAML data formats are acceptable, however it's better to just stick with YAML since the rest of your data files are written in YAML. 
+![front matter.png]({{site.baseurl}}/_posts/front matter.png)
+
+As you see in the above example of the front matter in a blog post markdown file
+ 
+
 
 
 
