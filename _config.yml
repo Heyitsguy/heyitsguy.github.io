@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: ZenkaiDev
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Struggle productively :)
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://images.unsplash.com/photo-1533906966484-a9c978a3f090?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b05b346633118a56e7f33bd727a10383&auto=format&fit=crop&w=3401&q=80
 
 #
 # Flags below are optional
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url:http://zenkaideveloper.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
