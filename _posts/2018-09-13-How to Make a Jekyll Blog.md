@@ -12,7 +12,11 @@ Most beginners might want to write a blog but do not have the technical abilitie
 
 # About Jekyll
 ---
-Jekyll is a static site generator. Without going into too much detail, a static site is a site that has all of its code pre-written so that everyone who accesses the site will always get the same site. Most websites now days are dynamic, which means that the site is not pre-written but gets generated on request by the user. Static sites have their own advantages and disadvantages, here are a couple of advantages:
+Jekyll is a static site generator. Without going into too much detail, a static site is a site that has all of its code pre-written so that everyone who accesses the site will always get the same site. Most websites now days are dynamic, which means that the site is not pre-written but gets generated on request by the user. 
+
+![static vs dynamic](../images/part-1-dynamic-x-static-server.png)
+
+Static sites have their own advantages and disadvantages, here are a couple of advantages:
 
 1. Faster speed since static sites don't need a server side language.
 2. More secure since there are no databases
@@ -22,4 +26,4 @@ A couple of disadvantages are:
 1. Very limited user experience (no CRUD functionalities)
 2. Not DRY(Don’t Repeat Yourself)
 
-Jekyll is used to generate multiple static sites by combining user content and a template. 
+Jekyll is used to generate multiple static sites by combining user content and a template.
