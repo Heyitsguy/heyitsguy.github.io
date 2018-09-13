@@ -84,7 +84,7 @@ Jekyll uses a naming convention to identify blog posts. Posts will not be recogn
 Front matter is what goes on the top of every file in Jekyll. Front matter section is delineated by three hyphens on the top and bottom. What goes in between the top and bottom set of hyphens are key value pairs. Either JSON or YAML data formats are acceptable, however it's better to just stick with YAML since the rest of your data files are written in YAML. 
 ![front matter.png]({{site.baseurl}}/_posts/front matter.png)
 
-As you see in the above example of the front matter in a blog post markdown file
+You can see in the above example of front matter in the above markdown file. We see that the layout key has a value of post, this basically tells Jekyll to look in the layout folder and use the post layout for this particular markdown file. The above is a basic template of what you would want in your front matter, however feel free to add more key/value pairs as you see fit. All of the key/value pairs can be accessed within the blog by using `{{ page.some_value }}` for example `{{ page.date }}` can be used to refer to the date value in front matter inside your markdown blog file. 
  
 
 
