@@ -65,4 +65,21 @@ These are the bare minimum files you need to start customizing the site and prod
 * _posts : This is another directory that contains markdown files with blog content only. This content will then combine with a layout file when jekyll builds a webpage. 
 * _site : DO NOT MODIFY ANYTHING HERE(telling you from experience). After you customize your templates and write blog content in the _posts folder, you can run `jekyll build` command. Jekyll will build static html and css files in the _site directory, therefore you should not ever have to modify anything here directly. 
 * css : The CSS directory will hold all of your stylesheets for your blog. Jekyll also supports SASS, so feel free to write .scss files in this directory as well.
-* index.html is just the homepage of the site. 
+* index.html is just the homepage of the site.
+
+# Writing a Post
+---
+Writing posts in jekyll is really easy. Posts are written as a markdown(.md) file. I am currently using prose.io to write this blog. Prose will connect to yopur github and makes editing Jekyll blogs really easy. However, I still recommend having a markdown cheatsheet if you're just getting started with markdown. 
+
+![prose]({{site.baseurl}}/_posts/Webp.net-resizeimage.png)
+
+So just a couple of things to get out of the way before you start writing content:
+
+## Naming Convention
+___
+Jekyll uses a naming convention to identify blog posts. Posts will not be recognized unless the file name is created using the following `year-month-date-{post-slug}.{file-extension}`.![Screen Shot 2018-09-13 at 11.00.51 AM.png]({{site.baseurl}}/_posts/Screen Shot 2018-09-13 at 11.00.51 AM.png)
+
+## Front Matter
+
+
+
