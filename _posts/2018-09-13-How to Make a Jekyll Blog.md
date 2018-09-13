@@ -85,7 +85,23 @@ Front matter is what goes on the top of every file in Jekyll. Front matter secti
 ![front matter.png]({{site.baseurl}}/_posts/front matter.png)
 
 You can see in the above example of front matter in the above markdown file. We see that the layout key has a value of post, this basically tells Jekyll to look in the layout folder and use the post layout for this particular markdown file. The above is a basic template of what you would want in your front matter, however feel free to add more key/value pairs as you see fit. All of the key/value pairs can be accessed within the blog by using `{{ page.some_value }}` for example `{{ page.date }}` can be used to refer to the date value in front matter inside your markdown blog file. 
- 
+
+# Publishing on Github
+---
+After we have created our first blog post (or a simple test file) we have to publish it somewhere. Github pages offers free hosting for static sites like our blog that we just built, so I am going to show you how to host your site there. 
+
+Step 1. Create a new repository on Github
+
+Step 2. Go to your terminal and cd into your jekyll directory and type `git init` to initialize git.
+
+Step 3. Type `git add .` to add all your files to git so that they can be commited. Then type `git commit -m "initial commit"` to commit all the files you just added. Then you can connect your local git with your online github repository by using `git remote add origin git@github.com:github_username/repository_name.git` . Last but not least, push your changes using `git push -u origin master`. All your files should now be on github.
+
+Step 4. Next go to your github repository and under the settings change the name of the repository to your_username@github.io.
+![image-2018-09-13.png]({{site.baseurl}}/_posts/image-2018-09-13.png)
+
+Step 5. Scroll down on the settings page and make sure that under Github Pages the source is set to master branch. Now to access your blog website you just need to go to your_username@github.io
+
+Step 6. Profit.
 
 
 
