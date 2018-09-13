@@ -37,13 +37,13 @@ Prerequisites:
 
 * Install the jekyll theme. In the terminal type  `sudo gem install jekyll`. You can check what version of jekyll you have by typing `jekyll -v`.
 
-![jekyll version](Screen_Shot_2018-09-13_at_9.20.21_AM.jpg)
+![jekyll version](../images/Screen_Shot_2018-09-13_at_9.20.21_AM.jpg)
 
 1. To start a new jekyll blog just type `jekyll new` and then the name of your blog. `jekyll new new-blog`. This should create a folder with your blog name and install all the gems necessary.
 2. Your blog will come with a preinstalled theme called minima. If you run the command `jekyll serve`, a server will launch and you will be able to access your site.
-![jekyll serve](jekyll-serve.jpg)
+![jekyll serve](../images/jekyll-serve.jpg)
 3.	**We see that the site is hosted on localhost port 4000, so lets go over and take a look!**
-![localhost:4000](Screen_Shot_2018-09-13_at_9.44.51_AM.jpg)
+![localhost:4000](../images/Screen_Shot_2018-09-13_at_9.44.51_AM.jpg)
 
 4. Open up your editor on the jekyll blog folder and within you should have some of the following files and directories. If you do not have the following files/directories please create them in your blog folder.
 
@@ -71,18 +71,19 @@ These are the bare minimum files you need to start customizing the site and prod
 ---
 Writing posts in jekyll is really easy. Posts are written as a markdown(.md) file. I am currently using prose.io to write this blog. Prose will connect to yopur github and makes editing Jekyll blogs really easy. However, I still recommend having a markdown cheatsheet if you're just getting started with markdown. 
 
-![prose]({{site.baseurl}}/_posts/Webp.net-resizeimage.png)
+![prose](../images/Webp.net-resizeimage.png)
 
 So just a couple of things to get out of the way before you start writing content:
 
 ## Naming Convention
 ---
-Jekyll uses a naming convention to identify blog posts. Posts will not be recognized unless the file name is created using the following `year-month-date-{post-slug}.{file-extension}`.![Screen Shot 2018-09-13 at 11.00.51 AM.png]({{site.baseurl}}/_posts/Screen Shot 2018-09-13 at 11.00.51 AM.png)
+Jekyll uses a naming convention to identify blog posts. Posts will not be recognized unless the file name is created using the following `year-month-date-{post-slug}.{file-extension}`.
+![Screen Shot 2018-09-13 at 11.00.51 AM.png](../images/Screen Shot 2018-09-13 at 11.00.51 AM.png)
 
 ## Front Matter
 ---
 Front matter is what goes on the top of every file in Jekyll. Front matter section is delineated by three hyphens on the top and bottom. What goes in between the top and bottom set of hyphens are key value pairs. Either JSON or YAML data formats are acceptable, however it's better to just stick with YAML since the rest of your data files are written in YAML. 
-![front matter.png]({{site.baseurl}}/_posts/front matter.png)
+![front matter.png](../images/front matter.png)
 
 You can see in the above example of front matter in the above markdown file. We see that the layout key has a value of post, this basically tells Jekyll to look in the layout folder and use the post layout for this particular markdown file. The above is a basic template of what you would want in your front matter, however feel free to add more key/value pairs as you see fit. All of the key/value pairs can be accessed within the blog by using `{{ page.some_value }}` for example `{{ page.date }}` can be used to refer to the date value in front matter inside your markdown blog file. 
 
@@ -97,7 +98,7 @@ Step 2. Go to your terminal and cd into your jekyll directory and type `git init
 Step 3. Type `git add .` to add all your files to git so that they can be commited. Then type `git commit -m "initial commit"` to commit all the files you just added. Then you can connect your local git with your online github repository by using `git remote add origin git@github.com:github_username/repository_name.git` . Last but not least, push your changes using `git push -u origin master`. All your files should now be on github.
 
 Step 4. Next go to your github repository and under the settings change the name of the repository to your_username@github.io.
-![image-2018-09-13.png]({{site.baseurl}}/_posts/image-2018-09-13.png)
+![image-2018-09-13.png](../images/image-2018-09-13.png)
 
 Step 5. Scroll down on the settings page and make sure that under Github Pages the source is set to master branch. Now to access your blog website you just need to go to your_username@github.io
 
