@@ -45,7 +45,7 @@ Prerequisites:
 3.	**We see that the site is hosted on localhost port 4000, so lets go over and take a look!**
 ![localhost:4000]({{site.baseurl}}/_posts/Screen_Shot_2018-09-13_at_9.44.51_AM.jpg)
 
-4. Open up your editor on the jekyll blog folder and within you should have some of the following files and directories. 
+4. Open up your editor on the jekyll blog folder and within you should have some of the following files and directories. If you do not have the following files/directories please create them in your blog folder.
 
 `|-- _config.yml
 
@@ -61,9 +61,8 @@ Prerequisites:
 `
 These are the bare minimum files you need to start customizing the site and producing blog content. Lets go through each one of these one by one. 
 * _config.yml: This is a YAML file that stores values that can be accessed for your whole site. It is common to see key:value pairs of Name, URL, and theme name. If you have ever worked with JSON files, you can think of YAML as a more human readable and friendlier version of JSON.
-
-
-
-
-
-
+* _layouts : This is a directory where it contains layouts for diffrent pages like home, contact, and posts. Everytime we create a new blog, we can tell the blog that it belongs to the posts layout. This will generate html and css files for each blog.
+* _posts : This is another directory that contains markdown files with blog content only. This content will then combine with a layout file when jekyll builds a webpage. 
+* _site : DO NOT MODIFY ANYTHING HERE(telling you from experience). After you customize your templates and write blog content in the _posts folder, you can run `jekyll build` command. Jekyll will build static html and css files in the _site directory, therefore you should not ever have to modify anything here directly. 
+* css : The CSS directory will hold all of your stylesheets for your blog. Jekyll also supports SASS, so feel free to write .scss files in this directory as well.
+* index.html is just the homepage of the site. 
