@@ -9,8 +9,7 @@ name: ZenkaiDev
 description: Struggle productively :)
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar:https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b73970e97b923e72be9355cb15099091&auto=format&fit=crop&w=1894&q=80
-
+avatar: https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b73970e97b923e72be9355cb15099091&auto=format&fit=crop&w=1894&q=80
 #
 # Flags below are optional
 #
