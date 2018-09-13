@@ -42,8 +42,25 @@ Prerequisites:
 1. To start a new jekyll blog just type `jekyll new` and then the name of your blog. `jekyll new new-blog`. This should create a folder with your blog name and install all the gems necessary.
 2. Your blog will come with a preinstalled theme called minima. If you run the command `jekyll serve`, a server will launch and you will be able to access your site.
 ![jekyll serve]({{site.baseurl}}/_posts/jekyll-serve.jpg)
-We see that the site is hosted on localhost port 4000, so lets go over and take a look!
+3.	**We see that the site is hosted on localhost port 4000, so lets go over and take a look!**
 ![localhost:4000]({{site.baseurl}}/_posts/Screen_Shot_2018-09-13_at_9.44.51_AM.jpg)
+
+4. Open up your editor on the jekyll blog folder and within you should have some of the following files and directories. 
+
+`|-- _config.yml
+
+ |-- _layouts
+
+ |-- _posts
+
+ |-- _site
+
+ |-- css
+ 
+ -- index.html
+`
+These are the bare minimum files you need to start customizing the site and producing blog content. Lets go through each one of these one by one. 
+* _config.yml: This is a YAML file that stores values that can be accessed for your whole site. It is common to see key:value pairs of Name, URL, and theme name. If you have ever worked with JSON files, you can think of YAML as a more human readable and friendlier version of JSON.
 
 
 
