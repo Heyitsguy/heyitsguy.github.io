@@ -26,4 +26,20 @@ A couple of disadvantages are:
 1. Very limited user experience (no CRUD functionalities)
 2. Not DRY(Don’t Repeat Yourself)
 
-Jekyll allows developers to develop their jekyll site dynamically by creating templates, it helps solve the problem of the code not being DRY. There are many templates online that beginners are allowed to use to get started. By using a template, users can focus on the content of the site by writing them in markdown files. When jekyll builds out the website, it combines user content and the template to generate website files ready to publish. This way developers can develop dynamically while publish statically. 
+Jekyll allows developers to develop their jekyll site dynamically by creating templates, it helps solve the problem of the code not being DRY. There are many templates online that beginners are allowed to use to get started. By using a template, users can focus on the content of the site by writing them in markdown files. When jekyll builds out the website, it combines user content and the template to generate website files ready to publish. This way developers can develop dynamically while publish statically.
+
+
+# Getting Started
+---
+### Method 1: Fully Custom
+Prerequisites:
+* Have ruby installed (comes preinstalled on macs).
+
+* Install the jekyll theme. In the terminal type  `sudo gem install jekyll`. You can check what version of jekyll you have by typing `jekyll -v`.
+
+![jekyll version]({{site.baseurl}}/_posts/Screen_Shot_2018-09-13_at_9.20.21_AM.jpg)
+
+1. 
+
+
+
