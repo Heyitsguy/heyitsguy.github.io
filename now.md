@@ -14,11 +14,11 @@ It helps me say no, too. When I decline invitations, I point them to that page t
 
 ### Whats happening now
 * Currently a student at the Flatiron school!
-* Learning Sinatra.
-* Excited to build web pages!
+* Building a project in rails.
+
 
 ### Goals this week
-* Write another blog post.
+* Finish a blog post.
 * Run 5 miles.
 * Get a least 6 hours of sleep a night.
 
