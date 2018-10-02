@@ -13,3 +13,20 @@ Okay, so we know that time complexity is important, but how do we quantify it? I
 
 # Enter the Big O Notation
 ---
+The big O notation allows us to talk about the runtime of code in a fancy/formal way in relation to the growth of the size of the input.It does so by letting us count the amount of simple operations a computer does. This way we obtain a non biased measurement for time complexity since the amount of operations stay constant no matter what computer we are on.
+
+## Accessing a Single Element
+---
+The simplest case for complexity is when we are retrieving the value for a single element either in an array or a hash. The code below shows a key being retrieved from a hash.
+![Accessing a single key inside a hash](../images/Accessingkey.png)
+It does not matter if the code above had one key or a million keys, accessing a single key's value will always require a single operations therefore the complexity is considered to be O(1).
+
+## A Ruby .map iterator
+---
+For the next example let's look at a ruby .map iterator,
+![Ruby map iterator](../images/mapiterator.png)
+As you see in the example, map iterates through the whole array. In the example there was an array with numbers 1 to 10 inclusive, therefore showing 10 operations being done on the original array. If the size of the array was given a variable n (num_arr.length = n), then it would take n number of operations in order to get the result. Thus, the .map iterator in ruby will have a time complexity of O(n).
+
+# Example Problem Time!
+---
+ 
