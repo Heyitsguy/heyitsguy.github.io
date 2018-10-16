@@ -16,9 +16,10 @@ Ruby uses something called the Classical inheritance, where classes are a specia
 
 Javascript on the other hand uses prototypal inheritance and is different from class based inheritance in Ruby even though many people try to mimic class based inheritance in Javascript. In prototypal inheritance, instances inherit from other instances. According to Kyle Simpson the author of ‘You Dont know JS’, its literally Objects linking to other objects. Its basically just copying properties from one object into a new instance. This takes away the problem of the implicit hierarchy that is created by Ruby.  Every object in javascript has a reference to another object called the prototype.
 
-The following is an es5 implementation example of prototypes from my mod 3 lead instructor Niky.
+The following shows how to set prototypes to a new object and after that is an es5 implementation example of prototypes from my mod 3 lead instructor Niky.
+![mdn prototype](../images/mdnObjProto.png)
 ![prototype chain](../images/jsexample.png)
-As you can see by having an object and relating
+As you can see there is an animal object and its being passed into mammal's prototype so that it allows mammals to have animal methods and attributes. However, one thing that I would like to point out is that it looks like mammal is inheriting from animal, but keep in mind that its actually just sharing properties. There is no Has-a  or a is-a relationship.
 
 
 ## Conclusion
