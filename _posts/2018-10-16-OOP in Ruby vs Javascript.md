@@ -18,7 +18,12 @@ Javascript on the other hand uses prototypal inheritance and is different from c
 
 The following shows how to set prototypes to a new object and after that is an es5 implementation example of prototypes from my mod 3 lead instructor Niky.
 ![mdn prototype](../images/mdnObjProto.png)
+
+
+
 mdn snippit describing Object.create();
+
+
 ![prototype chain](../images/jsexample.png)
 As you can see there is an animal object and its being passed into mammal's prototype so that it allows mammals to have animal methods and attributes. However, one thing that I would like to point out is that it looks like mammal is inheriting from animal, but keep in mind that its actually just sharing properties. There is no Has-a  or a is-a relationship.
 
