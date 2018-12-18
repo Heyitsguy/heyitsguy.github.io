@@ -13,12 +13,12 @@ It helps me say no, too. When I decline invitations, I point them to that page t
 
 
 ### Whats happening now
-* Currently a student at the Flatiron school!
+* Currently building a modern restaurant site mobile first with react
 * Building a project in rails.
 
 
 ### Goals this week
-* Finish a blog post.
+* Finish desktop design of homepage for the restaurant.
 * Run 5 miles.
 * Get a least 6 hours of sleep a night.
 
