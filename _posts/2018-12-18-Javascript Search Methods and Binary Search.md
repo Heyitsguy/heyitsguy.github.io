@@ -48,8 +48,8 @@ This is a simplification of binary search but the above steps are the main ideas
 
 So the reason why we add/subtract one value from the mid value is because we already know that the mid value is not the target from the if statements. Therefore it would be redundant to include the mid values. Now the base case is just checking and making sure that the min and max pointers don't overlap and if the two overlap, the loop breaks and -1 is returned. So we know that binary searching is faster when you have a sorted array, but how much faster? Let’s look at that part next.
 
-### Binary Search Runtime ##
+### Binary Search Runtime
 The time complexity of binary search is O(log(n))  (log based 2 of n). Let’s demystify this by thinking for a moment on how binary search works. Everytime we look at the mid point and compare the value there to the target value, then making the next move, we are essentially discarding the other half of the array. Therefore, if we double the initial size of the array, it would only be one additional operation for the worst case scenario in finding the index. When we double something we can say we are raising the number 2 to the next power. For example 2^3 = 8 and then 2^4 = 16. To double we can just add one to the exponent.So hopefully we can see that 2 to the power of (numberOfOperations) = (arrSize). If we solve the equation to isolate number of operations, we get (numberOfOperations) = log2(arraySize) since logarithms are the inverse of exponents just like how division is the inverse of multiplication. Hopefully that helps makes sense.
 
-## Recap ##
+## Recap
 	So in this blog post we took a look at the different javascript methods, that help us search through an unsorted array and also a faster algorithm for when the array is already presorted for us. As a web developer without a traditional CS background, I have always resorted to using predefined javascript methods for searching without much thought. It was only until recently I started to dive into algorithms and see their value since not every method in javascript is optimized for the best performance in all situations.
