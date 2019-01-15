@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Zenkai Tech
-permalink: https://zenkai.tech/
+title: Now
+permalink: /about
 ---
 
 The now page is a nice reminder for myself, when I’m feeling unfocused. A public declaration of priorities.
