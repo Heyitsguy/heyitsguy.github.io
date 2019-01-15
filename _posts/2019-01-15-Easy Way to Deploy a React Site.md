@@ -3,6 +3,7 @@ published: true
 layout: post
 title: Easy Way to Deploy a React Site
 ---
+
 ![React and Firebase](../images/ReactDeploymentBlog/banner.png)
 ---
 So, are you a developer who wants an easy way to deploy your front-end React application? After deploying my front-end projects through various methods including FTP to traditional servers, Github Pages, and Heroku. I have found that the quickest and easiest way to deploy a React app is through Google’s Firebase platform. Firebase is a mobile and web development platform that has many features for developers. They are typically known for their realtime non-relational database, however they have many other features like OAuth, File Storage, and what we are gonna be focused on today, hosting. One nice thing about Firebase hosting is that unlike Heroku, you do not need a backend server to serve your production build. Firebase does have a free plan for hosting which lets you host up to 1GB of files and also 10GB of transfer data per month and afterwards its pay as you go. You also get a free SSL certificate for custom domains. Sold yet? Either way, let's get started.
@@ -10,7 +11,7 @@ So, are you a developer who wants an easy way to deploy your front-end React app
 # Getting Started
 ---
 Prerequisites:
-* Have Node installed(if youre developing in React, you have Node).
+* Have NPM installed.
 
 * Have a React project created with create-react-app boilerplate.
 
