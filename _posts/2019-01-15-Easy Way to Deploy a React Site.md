@@ -3,8 +3,7 @@ published: true
 layout: post
 title: Easy Way to Deploy a React Site
 ---
-<!-- ![jekyll and github](../images/jekyll_github.png) -->
-
+![React and Firebase](../images/ReactDeploymentBlog/banner.png)
 ---
 So, are you a developer who wants an easy way to deploy your front-end React application? After deploying my front-end projects through various methods including FTP to traditional servers, Github Pages, and Heroku. I have found that the quickest and easiest way to deploy a React app is through Google’s Firebase platform. Firebase is a mobile and web development platform that has many features for developers. They are typically known for their realtime non-relational database, however they have many other features like OAuth, File Storage, and what we are gonna be focused on today, hosting. One nice thing about Firebase hosting is that unlike Heroku, you do not need a backend server to serve your production build. Firebase does have a free plan for hosting which lets you host up to 1GB of files and also 10GB of transfer data per month and afterwards its pay as you go. You also get a free SSL certificate for custom domains. Sold yet? Either way, let's get started.
 
@@ -41,7 +40,7 @@ The responses are pretty straightforward, we want to host from our build folder 
 
 ### Don’t See Your Project?
 If you don't see the project that you created on the Firebase console in your command line interface then you just have to run the command `firebase add <project id>` without the angle brackets. You can find your project ID here in firebase.
-![project settings tab](../images/ReactDeploymentBlog/projectSettings.png)
+![project settings tab](../images/ReactDeploymentBlog/ProjectSettings.png)
 
 ## 5. Deploy the site
 If you successfully initiated Firebase for your project, you should be able to deploy the site with the command `firebase deploy`. There you go, you should be able to find the link to your site under the hosting tab in Firebase.
