@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Easy Way to Deploy a React Site
+title: A Quick and Easy Way to Deploy a React Site
 ---
 
 ![React and Firebase](../images/ReactDeploymentBlog/banner.png)
