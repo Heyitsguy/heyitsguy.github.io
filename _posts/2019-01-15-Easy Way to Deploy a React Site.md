@@ -40,7 +40,7 @@ After you have your build folder, in the command line run `firebase init`. Scrol
 The responses are pretty straightforward, we want to host from our build folder because that is the folder we just created with production ready code. The part with the index.html overwriting is a bit weird but you have to No otherwise firebase is going to create an index.html and overwrite the one that you have in the build folder (I learned the hard way.).
 
 ### Don’t See Your Project?
-If you don't see the project that you created on the Firebase console in your command line interface then you just have to run the command `firebase add <project id>` without the angle brackets. You can find your project ID here in firebase.
+If you don't see the project that you created on the Firebase console in your command line interface then you just have to run the command `firebase use <project id>` without the angle brackets. You can find your project ID here in firebase.
 ![project settings tab](../images/ReactDeploymentBlog/ProjectSettings.png)
 
 ## 5. Deploy the site
